@@ -500,7 +500,11 @@ width: 100%;
     #logo{
         margin-top: 15rem;
     }
-
+    .main-bg::before{
+        background: url(images/bg-curvy-mobile.svg) no-repeat;
+        background-size: auto;
+        top: -8.7rem;
+    }
     .main-bg{
         height: 223rem;
     }
